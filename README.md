@@ -23,11 +23,11 @@ The project is designed to be educational, well-structured, and suitable for sho
 ![Dataset Samples 2](images/dataset_samples2.png)
 
 ## ⚙️ Model Architecture
-The model used in this project is a custom Convolutional Neural Network (CNN) composed of:
-- Convolutional layers for feature extraction
-- Pooling layers for spatial downsampling
+The model used in this project is a basic CNN composed of:
+- Convolutional layers with ReLU activation for feature extraction
+- Max pooling layers for spatial downsampling
 - Fully connected layers for classification
-- Softmax activation at the output layer
+- Output layer with 2 neurons (for binary classification example)
 
 The architecture is designed to balance performance and simplicity, making it suitable
 for learning and experimentation.
@@ -78,3 +78,4 @@ Several improvements can be explored in future versions of this project:
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+
